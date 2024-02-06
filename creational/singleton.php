@@ -36,5 +36,8 @@ final class Connection
 $connection1 = Connection::getInstance();
 $connection1::setName('First Connection');
 echo $connection1::getName() . PHP_EOL;
+
 $connection2 = Connection::getInstance();
+$connection2::setName('Second Connection');
+echo $connection1::getName() . PHP_EOL;
 echo $connection2::getName() . PHP_EOL;
