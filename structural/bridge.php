@@ -24,7 +24,7 @@ class HtmlFormatter implements Formatter
 abstract class BridgeService
 {
     public function __construct(
-        public Formatter $formatter
+        protected Formatter $formatter
     ) {
     }
 
