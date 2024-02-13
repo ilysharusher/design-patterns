@@ -22,11 +22,7 @@ class WorkerOutsource implements Worker
     }
 }
 
-<<<<<<< HEAD
 class WorkerProxy extends WorkerOutsource
-=======
-class WorkerProxy extends WorkerOutsource implements Worker
->>>>>>> origin/main
 {
     private int $salary;
 
